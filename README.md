@@ -14,11 +14,11 @@ You can check the demo <Link to be added soon.>
 - Run `npm start`
 - Check the app on `localhost:3000`
 
-## Technolgies used
+## Technologies used
 
 - React
+- Rapid API
 - OpenWeatherMap API
-- GeoCities API
 - Netlify
 
 ## Screenshots
