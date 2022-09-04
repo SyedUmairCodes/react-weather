@@ -3,7 +3,8 @@ import { useState } from "react";
 import "./App.css";
 import CurrentWeather from "./components/current-weather/CurrentWeather";
 import { WEATHER_API_URL, WEATHER_API_KEY } from "./API";
-import ForecastWeather from "./components/forecast-weather/ForecastWeather";
+import Forecast from "./components/forecast-weather/Forecast";
+import Logo from "./components/logo/Logo";
 
 function App() {
   // Set the state
@@ -36,9 +37,10 @@ function App() {
 
   return (
     <div className="container">
+      <Logo />
       <Search onSearchChange={handleOnSearchChange} />
       {currentWeather && <CurrentWeather data={currentWeather} />}
-      {forecast && <ForecastWeather data={forecast} />}
+      {forecast && <Forecast data={forecast} />}
     </div>
   );
 }
