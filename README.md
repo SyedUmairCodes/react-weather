@@ -4,13 +4,13 @@ A geo location based weather app built with React and OpenWeatherMap and GeoCiti
 
 ## Demo
 
-You can check the demo <Link to be added soon.>
+You can check the demo <a href="https://daily-forecasts.netlify.app">here.</a>
 
 ## Installation
 
 - Clone the repo
 - Run `npm install`
-- Provide the API key in the `.ENV` file
+- Provide the API key in the `API.js` file
 - Run `npm start`
 - Check the app on `localhost:3000`
 
@@ -22,3 +22,7 @@ You can check the demo <Link to be added soon.>
 - Netlify
 
 ## Screenshots
+
+![First screenshot](./readme/image1.png)
+![Second screenshot](./readme/image2.png)
+![Third screenshot](./readme/image3.png)
